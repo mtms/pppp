@@ -1,0 +1,78 @@
+html,body{
+height: 100%;
+}
+body{
+background-image: url("../img/logo3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-size: contain;
+}
+div#nameform {
+width: 600px;
+position: relative;
+bottom: 230px;
+left: 150px;
+}
+div#emailform {
+width: 700px;
+position: relative;
+bottom: 230px;
+left: 150px;
+}
+input.inputname {
+width: 450px;
+height: 50px;
+font-weight: 900;
+font-size: 25pt;
+text-align: center;
+}
+.save_btn,.skip_btn {
+width: 100px;
+height: 50px;
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+/* border-radius: 4px; */
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+margin-top: -15px;
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+.save_btn {
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.skip_btn {
+color: #fff;
+background-color: #d14836;
+border-color: #d14836;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.big {
+width: 400px;
+height: 80px;
+}
+div#answerform {
+width: 850 !important;
+position: relative;
+bottom: 230px;
+left: 100px;
+}
